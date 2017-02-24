@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+         android:paddingTop="10dp"
+        android:weightSum="2"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="top">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/img_view_user" />
+
+            <TextView
+                android:text="Danish Erosol"
+                android:textStyle="bold"
+              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_view_user_name"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/img_view_user"
+                android:layout_toEndOf="@+id/img_view_user" />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:text="06:43"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_view_time"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
